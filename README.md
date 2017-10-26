@@ -11,7 +11,7 @@ Utiliser les différentes notions de Java OO apprises au cours (création d'exce
 ## Techno utilisées
 * Architecture : 3-tiers (servlets, domain, services)
 * Framework : Tomcat (fourni par le formateur)
-* Front-End : aucun (utilisation d'Insomnia pour les tests). Possibilité d'utiliser https://github.com/lutin2706/Animagic (de NotGael)
+* Front-End : aucun (utilisation d'Insomnia pour les tests). Possibilité d'utiliser https://github.com/lutin2706/Animagic (de Gael) ou https://github.com/lutin2706/Magimal (de Michel)
 * Persistance des données : JDBC avec MySQL
 * Autres : Insomnia (tests), JSON, BCrypt, JWT (gestion des tokens)
 Mapping par un web.xml

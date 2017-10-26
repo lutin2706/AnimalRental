@@ -1,0 +1,421 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2017-10-11T09:10:01.032Z",
+	"__export_source": "insomnia.desktop.app:v5.8.4",
+	"resources": [
+		{
+			"_id": "wrk_038292b4786e466896f4c75a0a494bb5",
+			"parentId": null,
+			"modified": 1507123207043,
+			"created": 1507123207043,
+			"name": "Insomnia",
+			"description": "",
+			"certificates": [],
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_76ab16041d28449392f227d388ff0444",
+			"parentId": "wrk_038292b4786e466896f4c75a0a494bb5",
+			"modified": 1507123207058,
+			"created": 1507123207058,
+			"name": "Base Environment",
+			"data": {},
+			"color": null,
+			"isPrivate": false,
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_9dc526b254434ac4a04def2e53ca627a",
+			"parentId": "wrk_038292b4786e466896f4c75a0a494bb5",
+			"modified": 1507123207046,
+			"created": 1507123207046,
+			"name": "Default Jar",
+			"cookies": [],
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_2fd7c68e5ad54a2780440eda4683e222",
+			"parentId": "wrk_038292b4786e466896f4c75a0a494bb5",
+			"modified": 1507639136432,
+			"created": 1507622346311,
+			"name": "Animals",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1507639130279,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_30f5f66976894847804505a04a487e82",
+			"parentId": "wrk_038292b4786e466896f4c75a0a494bb5",
+			"modified": 1507639139220,
+			"created": 1507622395794,
+			"name": "Types",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1507639130254,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_c3e3dd1b48784662858f9c3552b2e562",
+			"parentId": "wrk_038292b4786e466896f4c75a0a494bb5",
+			"modified": 1507640701118,
+			"created": 1507639130229,
+			"name": "Login",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1507639130247.75,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_32273ebf628c471f8944dea724e51890",
+			"parentId": "wrk_038292b4786e466896f4c75a0a494bb5",
+			"modified": 1507640703434,
+			"created": 1507640694625,
+			"name": "Users",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1507639130250.875,
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_7fe5b39a0669456883116eda9d52fb94",
+			"parentId": "fld_2fd7c68e5ad54a2780440eda4683e222",
+			"modified": 1507628982574,
+			"created": 1507123251698,
+			"url": "http://localhost:8080/animals/41",
+			"name": "Modify 1 animal",
+			"description": "",
+			"method": "PUT",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"type\":2,\"nom\":\"Méga Souris\",\"description\":\"Bof, une souris pas comestible\",\"cout\":15.0,\"url\":\"http://static.skynetblogs.be/media/48361/dyn010_original_176_161_gif_2573108_0237772c6ebb49c6451af87ebb35d7f1.gif\",\"dateNaissance\":\"1865-04-14\"}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json; charset=utf-8",
+					"id": "pair_d06ed6ac172e408593a08648d69c1541"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1507622308301.625,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_e0593d3ac9c344a9962723ca1b0c18b1",
+			"parentId": "fld_2fd7c68e5ad54a2780440eda4683e222",
+			"modified": 1507622378996,
+			"created": 1507621808136,
+			"url": "http://localhost:8080/animals",
+			"name": "List all animals",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json; charset=utf-8",
+					"id": "pair_d06ed6ac172e408593a08648d69c1541"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1507622308401.625,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_6c012157b52a4d9c8fe6cdb702043d5f",
+			"parentId": "fld_2fd7c68e5ad54a2780440eda4683e222",
+			"modified": 1507628973846,
+			"created": 1507622043386,
+			"url": "http://localhost:8080/animals/41",
+			"name": "Get  1 animal",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1507622308351.625,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_d38e55bef0984d6db6bd521e417ee018",
+			"parentId": "fld_2fd7c68e5ad54a2780440eda4683e222",
+			"modified": 1507647250995,
+			"created": 1507622134327,
+			"url": "http://localhost:8080/animals/42",
+			"name": "Delete 1 animal",
+			"description": "",
+			"method": "DELETE",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Api-Token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzZXYifQ.NowRRR4rp2FWzn1XsSxptmmbyYFGNGjBke0YSJ8UH6E",
+					"id": "pair_71b6d420506e463b9714d582a76bea0c"
+				},
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_3e80979dd77b41c3bc6aeb7d8a1cf905"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1507622308251.625,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_aca0d4d7084042fabae960efd9203c16",
+			"parentId": "fld_2fd7c68e5ad54a2780440eda4683e222",
+			"modified": 1507647221376,
+			"created": 1507622184877,
+			"url": "http://localhost:8080/animals",
+			"name": "Insert 1 animal",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"type\":2,\"nom\":\"Méga Souris\",\"description\":\"Bof, une souris pas comestible\",\"cout\":15.0,\"url\":\"http://static.skynetblogs.be/media/48361/dyn010_original_176_161_gif_2573108_0237772c6ebb49c6451af87ebb35d7f1.gif\",\"dateNaissance\":\"1865-04-14\"}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_6d9ab4fdf3b849c4855941ae9fb2c700"
+				},
+				{
+					"name": "Api-Token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzZXYifQ.NowRRR4rp2FWzn1XsSxptmmbyYFGNGjBke0YSJ8UH6E",
+					"id": "pair_590578533cd049f1a330a8f7bd7390bb"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1507622308451.625,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_4cee3f2ea83742ad8b94c6f49a76bba1",
+			"parentId": "fld_30f5f66976894847804505a04a487e82",
+			"modified": 1507630430588,
+			"created": 1507622428376,
+			"url": "http://localhost:8080/combos",
+			"name": "List all comboboxes",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1507622428376,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_853e002dfb56445998ba70f03a547fa4",
+			"parentId": "fld_30f5f66976894847804505a04a487e82",
+			"modified": 1507624259424,
+			"created": 1507622710563,
+			"url": "http://localhost:8080/combo/code/type",
+			"name": "List all types",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1507622368413.8125,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_eb2e17ee025e4d6c918f2e5d458da1ff",
+			"parentId": "fld_30f5f66976894847804505a04a487e82",
+			"modified": 1507629085700,
+			"created": 1507624303318,
+			"url": "http://localhost:8080/combo/12",
+			"name": "Get 1 type",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1507622338432.7188,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_757275ff5cfa4626b32ab2ba0e7f30cf",
+			"parentId": "fld_30f5f66976894847804505a04a487e82",
+			"modified": 1507630319340,
+			"created": 1507625439588,
+			"url": "http://localhost:8080/combos",
+			"name": "Insert 1 type",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"code\":\"type\",\"valeur\":\"Chat\"}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_6d9ab4fdf3b849c4855941ae9fb2c700"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1507622428426,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_e0737462cd254d94ad9d1ae812b327f4",
+			"parentId": "fld_30f5f66976894847804505a04a487e82",
+			"modified": 1507629092125,
+			"created": 1507626148776,
+			"url": "http://localhost:8080/combo/12",
+			"name": "Modify 1 type",
+			"description": "",
+			"method": "PUT",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"code\":\"type\",\"valeur\":\"Chien\"}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json; charset=utf-8",
+					"id": "pair_d06ed6ac172e408593a08648d69c1541"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1507622338382.7188,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_e123d3cb4f124835bfac6371151bd216",
+			"parentId": "fld_30f5f66976894847804505a04a487e82",
+			"modified": 1507629097894,
+			"created": 1507626694245,
+			"url": "http://localhost:8080/combo/12",
+			"name": "Delete 1 type",
+			"description": "",
+			"method": "DELETE",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1507622338332.7188,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_c4e4f50ec726419dba7441c4bf56c7f6",
+			"parentId": "fld_c3e3dd1b48784662858f9c3552b2e562",
+			"modified": 1507639221078,
+			"created": 1507639155547,
+			"url": "http://localhost:8080/login",
+			"name": "Login",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"login\":\"sev\",\"password\":\"monsecret\"}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_cea1a60bf9b14f45b95ed78e100c3eb5"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1507639155547,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_296b58230a904ff2a860637dce29ad29",
+			"parentId": "fld_32273ebf628c471f8944dea724e51890",
+			"modified": 1507640787322,
+			"created": 1507640720763,
+			"url": "http://localhost:8080/users",
+			"name": "Insert 1 user",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"login\":\"sev\",\"password\":\"monsecret\"}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_607eb307557b495a9b1ba06641093b7b"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1507640720763,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		}
+	]
+}
